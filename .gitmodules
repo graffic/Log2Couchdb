@@ -1,0 +1,6 @@
+[submodule "cradle"]
+	path = cradle
+	url = http://github.com/cloudhead/cradle.git
+[submodule "vargs"]
+	path = vargs
+	url = http://github.com/cloudhead/vargs.git
