@@ -1,0 +1,10 @@
+{
+   "_id": "0eacc60d0eb182a7092d6eb130000d2c",
+   "_rev": "2-12958743d79da187ec87cf64c65a879e",
+   "App": "Ferries",
+   "Env": "Dev",
+   "Level": "ERROR",
+   "Timestamp": "2010-10-30 21:50:43,312",
+   "Msg": "CacheHelper: Key ServiceFeeCalculato r-496079abb8d43b742144cbc5cfca5916 Found in Cache!",
+   "Where": "ETravel.DreamFlight.XMLHandler.Helpers.CacheHelper"
+}

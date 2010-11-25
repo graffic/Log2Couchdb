@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Log Viewer</title>
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+  </head>
+	<body>
+    <h1>Logs</h1>
+    <div id="items"><p>Empty items!</p></div>
+    <div id="sidebar">
+			<h2>Applications</h2>
+			<div id="applications"></div>
+		</div>
+  </body>
+	<script type="text/javascript" charset="utf-8" src="vendor/couchapp/loader.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	$.couch.app(function(app) {
+		$("#applications").evently("applications", app);
+	});
+	</script>
+</html>
