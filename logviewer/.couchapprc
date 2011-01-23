@@ -3,7 +3,7 @@
         "public" : {
           "db" : "http://name:pass@mycouch.couchone.com/mydatabase"
         },
-        "default" : {
+        "development" : {
           "db" : "http://localhost:5984/logviewerdev"
         }
       }
